@@ -1,0 +1,46 @@
+/* Main container */
+.user-detail-container {
+    padding: 24px;
+    width: 100%;
+  }
+  
+  /* User name styling */
+  .user-name {
+    margin-bottom: 24px !important;
+  }
+  
+  .user-name h4 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* User info section */
+  .user-info {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .info-item {
+    margin-bottom: 12px !important;
+    line-height: 1.6;
+  }
+  
+  .info-item strong {
+    color: #555;
+  }
+  
+  /* Photos link styling */
+  .photos-link {
+    margin-top: 24px;
+  }
+  
+  .photos-link-text {
+    color: #1976d2 !important;
+    text-decoration: none !important;
+    font-weight: 500;
+  }
+  
+  .photos-link-text:hover {
+    text-decoration: underline !important;
+  }

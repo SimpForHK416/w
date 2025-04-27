@@ -1,0 +1,48 @@
+/* Main container */
+.user-list-container {
+    padding: 16px;
+  }
+  
+  /* Paper styling */
+  .user-list-paper {
+    padding: 16px;
+  }
+  
+  /* Title styling */
+  .user-list-title {
+    margin-bottom: 16px !important;
+  }
+  
+  /* List styling */
+  .user-list {
+    width: 100%;
+  }
+  
+  /* Individual user item */
+  .user-list-item-wrapper {
+    width: 100%;
+  }
+  
+  .user-list-item {
+    border-radius: 8px;
+  }
+  
+  .user-list-item:hover {
+    background-color: #f4f4f4;
+  }
+  
+  /* Description text */
+  .user-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+  }
+  
+  /* Divider between items */
+  .user-list-divider {
+    margin: 8px 0;
+  }
